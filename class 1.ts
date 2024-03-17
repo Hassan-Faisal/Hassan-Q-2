@@ -8,11 +8,11 @@ class Person {
     }
   
     speak() {
-      console.log(`My name is ${this.name} and my age is ${this.age}`);
+      console.log(`My name is ${this.name} and i'm ${this.age} years old`);
     }
   }
   
-class Dev extends Person {
+class Q2 extends Person {
     profession: string;
   
     constructor(name: string, age: number, profession: string) {
@@ -26,7 +26,7 @@ class Dev extends Person {
   }
   
 const generalPerson = new Person("Hassan", 20);
-const developer = new Dev("Hassan", 20, "A passionate Mern Stack Developer");
+const developer = new Q2("Hassan", 20, "A passionate Mern Stack Developer");
   
   generalPerson.speak();
   developer.speak();
