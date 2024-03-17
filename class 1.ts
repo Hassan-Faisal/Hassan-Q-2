@@ -18,6 +18,7 @@ class Q2 extends Person {
     constructor(name: string, age: number, profession: string) {
       super(name, age);
       this.profession = profession;
+      console.log(profession);
     }
   
     speak() {
